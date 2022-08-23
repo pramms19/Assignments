@@ -1,0 +1,145 @@
+body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; background-color: #CCFFFF;}
+
+h1 {font-size: 14px; font-variant: small-caps; color: #FF0000; 
+    background-color: #00FF00;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+p:first-letter {font-size: 200%;}
+.income {background-color: #CCCCCC;}
+.expenses {background-color: #FF0000;}
+.profit {background-color: #FFFF00;}
+
+#budgetsummary {
+    background-color: #FFFFFF; 
+    border: dotted;
+    padding: 20px;
+    width: 500px;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+
+body{
+    margin: 0;
+}
+.box{
+    border: ridge yellow;
+    width: 370px;
+    height: 258px;
+}
+div .cols{
+    border: solid 1px grey;
+    width:150px;
+    height: 50px;
+    margin: 1px;
+    display: inline-block;
+    text-align: center;
+}
+
+div.col2{
+    width: 100px;
+}
+
+
+div.blue1 {
+    width:150px;
+    height:200px;
+    background-color: #B4D6E3;
+    margin:1px ;
+    border: solid 1px grey;
+    position: absolute;
+}
+div.yellow1 {
+    width:100px;
+    height:40px;
+    background-color:yellow;
+    border: solid 1px grey; 
+    margin: 1px;   
+    position: absolute;
+    text-align: right;
+    left: 161px;
+}
+div.red1 {
+    width:100px;
+    height:40px;
+    background-color:red;
+    border: solid 1px grey;
+    position: absolute;
+    text-align: center;
+    margin: 1px;
+    left: 269px;
+}
+div.green1 {
+    margin: px;
+    width:208px;
+    height:156px;
+    background-color: green;
+    border: solid 1px grey;
+    position: absolute;
+    left: 161px;
+    top: 120px;
+}
+
+
+#container{
+    width: 1080px;
+    height: 900px;
+    margin: auto;
+  }
+.header{
+    font-family: Verdana, sans-serif;
+    background-color: #ccaa66;
+    height: 80px;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+
+  }
+.nav{
+    font-family: Verdana, sans-serif;
+    background-color: #E8D882;
+    width: 200px;
+    height: 223px;
+    padding: 20px;
+    border-left: solid;
+  }
+a{
+    text-decoration: none;
+}
+.description{
+    font-family: Verdana;
+    background: #f1e8b0;
+    width: 814px;
+    position:relative;
+    padding-top: 11px;
+    padding-left: 20px;
+    top: -263px;
+    left: 242px;
+    background-image: url(../images/Stinky.jpeg);
+    border-right: solid;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 530px;
+  }
+.footer{
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 14;
+    background-color: #ccaa66;
+    height: 80px;
+    border-style: solid;
+    text-align: center;
+    top: -263px;
+    position: relative;
+    padding-top: 28px;
+  }
+
+
+
+  
